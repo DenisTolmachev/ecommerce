@@ -1,0 +1,40 @@
+.nav-menu {
+  background-color: $light-green;
+}
+
+.toggle-nav {
+  display: none;
+}
+
+/*----- Menu -----*/
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 100%;
+    padding: 10px 18px;
+    ul {
+      display: inline-block;
+      li {
+        float: left;
+        list-style: none;
+
+        border-right: 2px solid $white;
+        &:last-child {
+          margin-right: 0px;
+          border-right: none;
+        }
+        a {
+          font-family: $bebasneue;
+          font-size: $medium;
+          color: $white;
+          transition: color linear 0.15s;
+          padding: 0 16px;
+          &:hover {
+            text-shadow: $shadow-white-hover;
+          }
+        }
+      }
+    }
+  }
+}
+
+

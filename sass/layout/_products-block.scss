@@ -1,0 +1,30 @@
+.product-section, .product-section-inv {
+  border: 1px solid $text-grey;
+  border-bottom: 4px solid $darck-green;
+  min-height: 250px;
+  margin: 32px 36px;
+  padding: 10px;
+  text-align: center;
+  .product-section-href {
+    &:hover {
+      h3 {
+        color: $light-green;
+      }
+    }
+  }
+  .content-product-section {
+    margin-top: 18px;
+    .button {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      span {
+        display: inline;
+        color: $grey;
+        font-family: $bebasneue;
+        font-size: $medium-m;
+        margin-right: 15px;
+      }
+    }
+  }
+}

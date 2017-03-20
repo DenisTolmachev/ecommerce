@@ -1,0 +1,25 @@
+.foot-menu {
+  background-color: $light-green;
+  .foot-menu-content {
+    padding: 40px 56px;
+    h3 {
+      color: $white;
+    }
+    ul {
+      margin-top: 20px;
+      li {
+        font-family: $opensans;
+        font-size: $little;
+        line-height: $lh-lg-x;
+        a {
+          text-transform: none;
+          margin-left: 5px;
+          transition: 0.2s;
+          &:hover {
+            text-shadow: $shadow-white-hover;
+          }
+        }
+      }
+    }
+  }
+}

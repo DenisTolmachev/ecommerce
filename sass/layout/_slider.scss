@@ -1,0 +1,54 @@
+.slider {
+  position: relative;
+  z-index: 0;
+  background: $darck-green;
+  @include padding-v(50px);
+
+  .owl-nav {
+    display: none;
+  }
+  .img-carousel-block {
+    float: left;
+    width: 30%;
+
+    img {
+      max-width: 100% !important;
+      margin: 0 54px;
+    }
+  }
+  .slide-content {
+    width: 70%;
+    float: right;
+    padding: 0px 171px;
+  }
+  h1 {
+    padding-top: 20px;
+    font-family: $bebasneue;
+    font-size: $large-l;
+    line-height: 0.9;
+
+  }
+  p {
+    margin: 20px 0;
+    font-family: $opensans;
+    font-size: $little-m;
+    line-height: $lh-md;
+  }
+  .owl-dots {
+    text-align: center;
+    .owl-dot {
+      display: inline-block;
+      background: $white;
+      width: 8px;
+      height: 8px;
+      border-radius: $br-large;
+      margin-right: 5px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.active {
+        @include opacity(.3);
+      }
+    }
+  }
+}

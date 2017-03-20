@@ -1,0 +1,26 @@
+.form-md {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form-sm {
+  margin: 6px 0;
+}
+
+input[type="search"] {
+  display: inline-block;
+  max-width: 436px;
+  width: 100%;
+  @include reset-appearance();
+  color: $grey;
+  border: 1px solid $bg-gray-l;
+  background: $white;
+  height: $height-input;
+  position: relative;
+  background-image: url(/img/search.png);
+  background-repeat: no-repeat;
+  background-position: 98%;
+  padding-right: 35px;
+  text-indent: 15px;
+}
+

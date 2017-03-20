@@ -1,0 +1,15 @@
+.cart {
+  float: right;
+  padding: 29px 0;
+  p {
+    font-family: $bebasneue;
+    font-size: $large;
+    color: $grey;
+    position: relative;
+      @include before-absolute {
+        @include icons(shape);
+        margin-left: -60px;
+        margin-top: -4px;
+      }
+  }
+}

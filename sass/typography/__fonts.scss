@@ -1,0 +1,27 @@
+$font: "/fonts";
+
+@font-face {
+  font-family: 'Lobster1.4';
+  src: url('#{$font}/Lobster_1_4.eot');
+  src: url('#{$font}/Lobster_1_4?#iefix') format('embedded-opentype'),
+  url('#{$font}/Lobster_1_4.woff') format('woff'),
+  url('#{$font}/Lobster_1_4.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: "OpenSans", sans-serif;
+  src: url('#{$font}/OpenSans-Regular.eot');
+  src: url('#{$font}/OpenSans-Regular?#iefix') format('embedded-opentype'),
+  url('#{$font}/OpenSans-Regular.woff') format('woff'),
+  url('#{$font}/OpenSans-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('#{$font}/BebasNeue.eot');
+  src: url('#{$font}/BebasNeue?#iefix') format('embedded-opentype'),
+  url('#{$font}/BebasNeue.woff') format('woff'),
+  url('#{$font}/BebasNeue.ttf')  format('truetype');
+}
+
+
